@@ -1,0 +1,39 @@
+@media (max-width:1024px) {
+    .maincontactanos form {
+        margin: 200px;
+    }
+}
+
+@media (max-width:425px) {
+    .rappipedidoya div a img {
+        margin: 20px;
+        border-radius: 150px;
+        height: 100px;
+        width: 150px;
+    }
+
+    .googlemaps {
+        left: 0;
+    }
+
+    .titulo-y-video video {
+        width: 400px;
+    }
+}
+
+@media (max-width:375px) {
+    .maincontactanos form textarea {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (max-width:320px) {
+    .maincontactanos form p input {
+        width: 280px;
+    }
+
+    .maincontactanos form textarea {
+        font-size: 14px;
+    }
+}

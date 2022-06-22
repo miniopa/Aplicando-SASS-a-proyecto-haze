@@ -1,0 +1,20 @@
+@media (max-width:1024px) {
+    .titulo-y-video video {
+        margin: 250px;
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .titulo-y-video video {
+        margin: 110px;
+        width: 600px;
+    }
+}
+
+@media (max-width:320px) {
+    .titulo-y-video video {
+        width: 300px;
+    }
+}

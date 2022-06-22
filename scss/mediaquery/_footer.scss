@@ -1,0 +1,23 @@
+@media (max-width:768px) {
+    .footer {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+@media (max-width:425px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .redes img {
+        margin: 10px;
+    }
+
+    .texto-chico {
+        right: 0px;
+    }
+}

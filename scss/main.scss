@@ -1,8 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Oswald', sans-serif;
 }
+
+
 
 @import './secciones/header';
 @import './secciones/index';
@@ -11,3 +13,13 @@
 @import './secciones/contactanos';
 @import './secciones/noticias';
 @import './secciones/footer';
+
+@import './keyframes/animaciones';
+
+@import './mediaquery/contactanos';
+@import './mediaquery/delivery';
+@import './mediaquery/footer';
+@import './mediaquery/header';
+@import './mediaquery/index';
+@import './mediaquery/menu';
+@import './mediaquery/noticias';
