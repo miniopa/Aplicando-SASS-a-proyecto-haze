@@ -1,0 +1,42 @@
+.mainmenu {
+    .hamburguesas {
+        background-image: url(../img/burger-yellow.jpg);
+        background-repeat: repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        display: grid;
+        justify-content: center;
+        padding: 25px;
+
+        img {
+            width: 300px;
+            margin: 20px;
+            position: relative;
+            left: 120px;
+            transition: all 1s;
+            animation: cambioancho 1s;
+        }
+
+        img:hover {
+            background-color: #121619c9;
+            border-radius: 100px;
+            transition: .3s;
+            transform: scale(1.1);
+        }
+
+        .precios-burgers {
+            display: grid;
+            justify-items: center;
+            text-align: center;
+            font-size: 20px;
+            background-color: rgba(0, 0, 0, 0.384);
+            border-radius: 20px;
+
+            table {
+                tr {
+                    color: #E7ECEF;
+                }
+            }
+        }
+    }
+}

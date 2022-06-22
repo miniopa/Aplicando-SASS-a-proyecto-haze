@@ -1,0 +1,29 @@
+.footer{
+    background-image: linear-gradient(to bottom, #000411, #030f14, #0e1615, #181a18, #1f1f1e);
+    display: flex;
+    justify-content: center;
+
+    .texto-chico{
+        display: flex;
+        align-items: center;
+        position: relative;
+        right: 100px;
+        color: #E7ECEF;
+    }
+
+    .redes{
+        a{
+            img{
+                width: 40px;
+                margin: 10px;
+                margin-left: 80px;
+                transition: 1s;
+            }
+
+            img:hover{
+                transition: 1s;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
