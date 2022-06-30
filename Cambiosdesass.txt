@@ -1,0 +1,2 @@
+Modifique Keyframes description a todos los html
+Agrege mixin y extend a parrafos (mixin no pude agregar el motivo lo escribi es que no me lo acepta nose porque)
