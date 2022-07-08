@@ -8,13 +8,28 @@
 
 @media (max-width:768px) {
     .titulo-y-video video {
-        margin: 110px;
+        margin: 110px !important;
         width: 600px;
     }
 }
 
+@media (max-width:425px){
+    .titulo-y-video video {
+        margin: 130px !important;
+        width: 400px !important;
+    }
+}
+
+@media (max-width:375px){
+    .titulo-y-video video {
+        width: 360px !important;
+        margin: 200px !important;
+    } 
+}
+
 @media (max-width:320px) {
     .titulo-y-video video {
-        width: 300px;
+        width: 290px !important;
+        margin: 200px !important;
     }
 }

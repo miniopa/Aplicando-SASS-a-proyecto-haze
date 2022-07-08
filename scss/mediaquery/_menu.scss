@@ -1,5 +1,12 @@
 @media (max-width:425px){
     .hamburguesas img {
-        left: 20px;
+        left: 10px !important;
+    }
+}
+
+@media (max-width:320px){
+    
+    .precios-burgers{
+        margin-right: 10px;
     }
 }

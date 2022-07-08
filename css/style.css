@@ -111,6 +111,11 @@
   .maindelivery .rappipedidoya div a img:hover {
     transition: 1s;
     transform: scale(1.1); }
+  .maindelivery .rappipedidoya .tituloygooglemaps h2 {
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    left: 10px; }
   .maindelivery .rappipedidoya .googlemaps {
     position: relative;
     left: 210px;
@@ -144,7 +149,8 @@
       font-size: 20px;
       border-radius: 5px;
       background-color: #e7ecef17;
-      color: #E7ECEF; }
+      color: #E7ECEF;
+      margin: 10px; }
     .maincontactanos form button {
       width: 150px;
       height: 35px;
@@ -223,21 +229,34 @@
 
 @media (max-width: 768px) {
   .rappipedidoya div a img {
-    width: 200px; }
+    width: 200px !important; }
   .googlemaps {
-    left: 110px; } }
+    left: 110px !important; } }
+
+@media (max-width: 425px) {
+  .rappipedidoya div a img {
+    align-items: center; }
+  .googlemaps {
+    display: none !important; }
+  .tituloygooglemaps h2 {
+    display: none; } }
 
 @media (max-width: 320px) {
   .rappipedidoya div a img {
-    width: 300px;
-    height: 300px; }
+    width: 150px !important;
+    height: 150px !important;
+    position: relative;
+    left: 35px; }
   .googlemaps {
-    display: none; } }
+    display: none !important; } }
 
 @media (max-width: 768px) {
   .footer {
     display: grid;
-    justify-items: center; } }
+    justify-items: center; }
+  .redes img {
+    position: relative;
+    right: 30px; } }
 
 @media (max-width: 425px) {
   .footer {
@@ -247,7 +266,17 @@
   .redes img {
     margin: 10px; }
   .texto-chico {
-    right: 0px; } }
+    right: 0px;
+    left: 10px; } }
+
+@media (max-width: 375px) {
+  .redes img {
+    width: 30px !important; } }
+
+@media (max-width: 320px) {
+  .redes img {
+    left: 2px;
+    margin-left: 10px !important; } }
 
 @media (max-width: 768px) {
   .header {
@@ -278,7 +307,11 @@
 
 @media (max-width: 425px) {
   .hamburguesas img {
-    left: 20px; } }
+    left: 10px !important; } }
+
+@media (max-width: 320px) {
+  .precios-burgers {
+    margin-right: 10px; } }
 
 @media (max-width: 1024px) {
   .titulo-y-video video {
@@ -288,12 +321,23 @@
 
 @media (max-width: 768px) {
   .titulo-y-video video {
-    margin: 110px;
+    margin: 110px !important;
     width: 600px; } }
+
+@media (max-width: 425px) {
+  .titulo-y-video video {
+    margin: 130px !important;
+    width: 400px !important; } }
+
+@media (max-width: 375px) {
+  .titulo-y-video video {
+    width: 360px !important;
+    margin: 200px !important; } }
 
 @media (max-width: 320px) {
   .titulo-y-video video {
-    width: 300px; } }
+    width: 290px !important;
+    margin: 200px !important; } }
 
 .mainindex .imgconparrafo p {
   border-radius: 20px;
